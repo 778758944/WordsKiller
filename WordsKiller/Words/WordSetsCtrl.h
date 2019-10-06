@@ -1,0 +1,17 @@
+//
+//  WordSetsCtrl.h
+//  WordsKiller
+//
+//  Created by WENTAO XING on 2019/7/31.
+//  Copyright © 2019 WENTAO XING. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface WordSetsCtrl : UICollectionViewController
+@property(nonatomic, strong) NSManagedObjectContext * dataCtx;
+@end
+
+NS_ASSUME_NONNULL_END

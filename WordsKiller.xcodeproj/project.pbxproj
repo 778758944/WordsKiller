@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F16591222704D0A002CCACB /* CoreDataTableViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F16591122704D0A002CCACB /* CoreDataTableViewCtrl.m */; };
+		7F1659152270542E002CCACB /* WorldListCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1659142270542E002CCACB /* WorldListCtrl.m */; };
+		7F23975622F2B40400728C11 /* WordSetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F23975522F2B40400728C11 /* WordSetCell.m */; };
+		7F34F52D226718150039E8C5 /* Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34F52C226718150039E8C5 /* Dictionary.m */; };
+		7F3CC3EB226F068700BBF6F3 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CC3EA226F068700BBF6F3 /* Word.m */; };
+		7F3CC3EE226F070C00BBF6F3 /* Word+addon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CC3ED226F070C00BBF6F3 /* Word+addon.m */; };
+		7F477EFA22F42D7B006B8682 /* WordReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F477EF922F42D7B006B8682 /* WordReview.m */; };
+		7F512AA72265CAD80005FF1C /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F512AA62265CAD80005FF1C /* SearchResult.m */; };
+		7F57A00422F9476400B2B630 /* CtrlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F57A00322F9476400B2B630 /* CtrlView.m */; };
+		7F57A00622F97F0C00B2B630 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F57A00522F97F0C00B2B630 /* MediaPlayer.framework */; };
+		7F78751022F7FB320089512B /* WordSelectCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F78750F22F7FB320089512B /* WordSelectCtrl.m */; };
+		7F96E3562272E669004ACDD6 /* WordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F96E3552272E669004ACDD6 /* WordView.m */; };
+		7FADB60D22EED53600559A56 /* WordSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FADB60C22EED53600559A56 /* WordSet.m */; };
+		7FADB61022EEE7DC00559A56 /* WordSet+addon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FADB60F22EEE7DC00559A56 /* WordSet+addon.m */; };
+		7FC85AEB2265A983000583DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC85AEA2265A983000583DF /* AppDelegate.m */; };
+		7FC85AF42265A983000583DF /* WordsKiller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FC85AF22265A983000583DF /* WordsKiller.xcdatamodeld */; };
+		7FC85AF62265A985000583DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC85AF52265A985000583DF /* Assets.xcassets */; };
+		7FC85AF92265A985000583DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC85AF72265A985000583DF /* LaunchScreen.storyboard */; };
+		7FC85AFC2265A985000583DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC85AFB2265A985000583DF /* main.m */; };
+		7FCCC465226DAE97000FAA1F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCCC464226DAE97000FAA1F /* AVFoundation.framework */; };
+		7FDA1FAF22F1968600E63524 /* WordSetsCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA1FAE22F1968600E63524 /* WordSetsCtrl.m */; };
+		7FE607F52269AE810031DEED /* ResultCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE607F42269AE810031DEED /* ResultCtrl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F16591022704D0A002CCACB /* CoreDataTableViewCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewCtrl.h; sourceTree = "<group>"; };
+		7F16591122704D0A002CCACB /* CoreDataTableViewCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewCtrl.m; sourceTree = "<group>"; };
+		7F1659132270542E002CCACB /* WorldListCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorldListCtrl.h; sourceTree = "<group>"; };
+		7F1659142270542E002CCACB /* WorldListCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldListCtrl.m; sourceTree = "<group>"; };
+		7F23975422F2B40400728C11 /* WordSetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordSetCell.h; sourceTree = "<group>"; };
+		7F23975522F2B40400728C11 /* WordSetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordSetCell.m; sourceTree = "<group>"; };
+		7F34F52B226718150039E8C5 /* Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
+		7F34F52C226718150039E8C5 /* Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dictionary.m; sourceTree = "<group>"; };
+		7F3CC3E9226F068700BBF6F3 /* Word.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		7F3CC3EA226F068700BBF6F3 /* Word.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		7F3CC3EC226F070C00BBF6F3 /* Word+addon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Word+addon.h"; sourceTree = "<group>"; };
+		7F3CC3ED226F070C00BBF6F3 /* Word+addon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Word+addon.m"; sourceTree = "<group>"; };
+		7F477EF822F42D7B006B8682 /* WordReview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordReview.h; sourceTree = "<group>"; };
+		7F477EF922F42D7B006B8682 /* WordReview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordReview.m; sourceTree = "<group>"; };
+		7F512AA52265CAD80005FF1C /* SearchResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
+		7F512AA62265CAD80005FF1C /* SearchResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchResult.m; sourceTree = "<group>"; };
+		7F57A00222F9476400B2B630 /* CtrlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CtrlView.h; sourceTree = "<group>"; };
+		7F57A00322F9476400B2B630 /* CtrlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CtrlView.m; sourceTree = "<group>"; };
+		7F57A00522F97F0C00B2B630 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7F78750E22F7FB320089512B /* WordSelectCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordSelectCtrl.h; sourceTree = "<group>"; };
+		7F78750F22F7FB320089512B /* WordSelectCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordSelectCtrl.m; sourceTree = "<group>"; };
+		7F96E3542272E669004ACDD6 /* WordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordView.h; sourceTree = "<group>"; };
+		7F96E3552272E669004ACDD6 /* WordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordView.m; sourceTree = "<group>"; };
+		7FADB60A22EEC6CD00559A56 /* WordViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordViewDelegate.h; sourceTree = "<group>"; };
+		7FADB60B22EED53600559A56 /* WordSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordSet.h; sourceTree = "<group>"; };
+		7FADB60C22EED53600559A56 /* WordSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordSet.m; sourceTree = "<group>"; };
+		7FADB60E22EEE7DC00559A56 /* WordSet+addon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordSet+addon.h"; sourceTree = "<group>"; };
+		7FADB60F22EEE7DC00559A56 /* WordSet+addon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WordSet+addon.m"; sourceTree = "<group>"; };
+		7FC85AE62265A983000583DF /* WordsKiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordsKiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC85AE92265A983000583DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FC85AEA2265A983000583DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FC85AF32265A983000583DF /* WordsKiller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordsKiller.xcdatamodel; sourceTree = "<group>"; };
+		7FC85AF52265A985000583DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FC85AF82265A985000583DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FC85AFA2265A985000583DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC85AFB2265A985000583DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FCCC464226DAE97000FAA1F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7FDA1FAD22F1968600E63524 /* WordSetsCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordSetsCtrl.h; sourceTree = "<group>"; };
+		7FDA1FAE22F1968600E63524 /* WordSetsCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordSetsCtrl.m; sourceTree = "<group>"; };
+		7FE607F32269AE810031DEED /* ResultCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultCtrl.h; sourceTree = "<group>"; };
+		7FE607F42269AE810031DEED /* ResultCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultCtrl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FC85AE32265A983000583DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F57A00622F97F0C00B2B630 /* MediaPlayer.framework in Frameworks */,
+				7FCCC465226DAE97000FAA1F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F16590F22704CE8002CCACB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7F16591022704D0A002CCACB /* CoreDataTableViewCtrl.h */,
+				7F16591122704D0A002CCACB /* CoreDataTableViewCtrl.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		7F34F52A226717F80039E8C5 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				7F34F52B226718150039E8C5 /* Dictionary.h */,
+				7F34F52C226718150039E8C5 /* Dictionary.m */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		7F3CC3DC226F025E00BBF6F3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CC3E9226F068700BBF6F3 /* Word.h */,
+				7F3CC3EA226F068700BBF6F3 /* Word.m */,
+				7FADB60B22EED53600559A56 /* WordSet.h */,
+				7FADB60C22EED53600559A56 /* WordSet.m */,
+				7FADB60E22EEE7DC00559A56 /* WordSet+addon.h */,
+				7FADB60F22EEE7DC00559A56 /* WordSet+addon.m */,
+				7F3CC3EC226F070C00BBF6F3 /* Word+addon.h */,
+				7F3CC3ED226F070C00BBF6F3 /* Word+addon.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7F96E3532272E438004ACDD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F96E3542272E669004ACDD6 /* WordView.h */,
+				7F96E3552272E669004ACDD6 /* WordView.m */,
+				7FADB60A22EEC6CD00559A56 /* WordViewDelegate.h */,
+				7F23975422F2B40400728C11 /* WordSetCell.h */,
+				7F23975522F2B40400728C11 /* WordSetCell.m */,
+				7F57A00222F9476400B2B630 /* CtrlView.h */,
+				7F57A00322F9476400B2B630 /* CtrlView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FC85ADD2265A983000583DF = {
+			isa = PBXGroup;
+			children = (
+				7FC85AE82265A983000583DF /* WordsKiller */,
+				7FC85AE72265A983000583DF /* Products */,
+				7FCCC463226DAE97000FAA1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FC85AE72265A983000583DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FC85AE62265A983000583DF /* WordsKiller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FC85AE82265A983000583DF /* WordsKiller */ = {
+			isa = PBXGroup;
+			children = (
+				7F96E3532272E438004ACDD6 /* View */,
+				7F16590F22704CE8002CCACB /* lib */,
+				7F3CC3DC226F025E00BBF6F3 /* model */,
+				7F34F52A226717F80039E8C5 /* Dictionary */,
+				7FC85B032265AE21000583DF /* Words */,
+				7FC85B022265AE13000583DF /* Search */,
+				7FC85AE92265A983000583DF /* AppDelegate.h */,
+				7FC85AEA2265A983000583DF /* AppDelegate.m */,
+				7FC85AF52265A985000583DF /* Assets.xcassets */,
+				7FC85AF72265A985000583DF /* LaunchScreen.storyboard */,
+				7FC85AFA2265A985000583DF /* Info.plist */,
+				7FC85AFB2265A985000583DF /* main.m */,
+				7FC85AF22265A983000583DF /* WordsKiller.xcdatamodeld */,
+			);
+			path = WordsKiller;
+			sourceTree = "<group>";
+		};
+		7FC85B022265AE13000583DF /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7F512AA52265CAD80005FF1C /* SearchResult.h */,
+				7F512AA62265CAD80005FF1C /* SearchResult.m */,
+				7FE607F32269AE810031DEED /* ResultCtrl.h */,
+				7FE607F42269AE810031DEED /* ResultCtrl.m */,
+				7F1659132270542E002CCACB /* WorldListCtrl.h */,
+				7F1659142270542E002CCACB /* WorldListCtrl.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7FC85B032265AE21000583DF /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				7F477EF822F42D7B006B8682 /* WordReview.h */,
+				7F477EF922F42D7B006B8682 /* WordReview.m */,
+				7FDA1FAD22F1968600E63524 /* WordSetsCtrl.h */,
+				7FDA1FAE22F1968600E63524 /* WordSetsCtrl.m */,
+				7F78750E22F7FB320089512B /* WordSelectCtrl.h */,
+				7F78750F22F7FB320089512B /* WordSelectCtrl.m */,
+			);
+			path = Words;
+			sourceTree = "<group>";
+		};
+		7FCCC463226DAE97000FAA1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F57A00522F97F0C00B2B630 /* MediaPlayer.framework */,
+				7FCCC464226DAE97000FAA1F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FC85AE52265A983000583DF /* WordsKiller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC85AFF2265A985000583DF /* Build configuration list for PBXNativeTarget "WordsKiller" */;
+			buildPhases = (
+				7FC85AE22265A983000583DF /* Sources */,
+				7FC85AE32265A983000583DF /* Frameworks */,
+				7FC85AE42265A983000583DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordsKiller;
+			productName = WordsKiller;
+			productReference = 7FC85AE62265A983000583DF /* WordsKiller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FC85ADE2265A983000583DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "WENTAO XING";
+				TargetAttributes = {
+					7FC85AE52265A983000583DF = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7FC85AE12265A983000583DF /* Build configuration list for PBXProject "WordsKiller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FC85ADD2265A983000583DF;
+			productRefGroup = 7FC85AE72265A983000583DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FC85AE52265A983000583DF /* WordsKiller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FC85AE42265A983000583DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC85AF92265A985000583DF /* LaunchScreen.storyboard in Resources */,
+				7FC85AF62265A985000583DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FC85AE22265A983000583DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F512AA72265CAD80005FF1C /* SearchResult.m in Sources */,
+				7FC85AEB2265A983000583DF /* AppDelegate.m in Sources */,
+				7F23975622F2B40400728C11 /* WordSetCell.m in Sources */,
+				7FC85AFC2265A985000583DF /* main.m in Sources */,
+				7FADB61022EEE7DC00559A56 /* WordSet+addon.m in Sources */,
+				7F477EFA22F42D7B006B8682 /* WordReview.m in Sources */,
+				7FE607F52269AE810031DEED /* ResultCtrl.m in Sources */,
+				7F57A00422F9476400B2B630 /* CtrlView.m in Sources */,
+				7F96E3562272E669004ACDD6 /* WordView.m in Sources */,
+				7FDA1FAF22F1968600E63524 /* WordSetsCtrl.m in Sources */,
+				7F34F52D226718150039E8C5 /* Dictionary.m in Sources */,
+				7F78751022F7FB320089512B /* WordSelectCtrl.m in Sources */,
+				7FADB60D22EED53600559A56 /* WordSet.m in Sources */,
+				7F16591222704D0A002CCACB /* CoreDataTableViewCtrl.m in Sources */,
+				7F3CC3EE226F070C00BBF6F3 /* Word+addon.m in Sources */,
+				7FC85AF42265A983000583DF /* WordsKiller.xcdatamodeld in Sources */,
+				7F3CC3EB226F068700BBF6F3 /* Word.m in Sources */,
+				7F1659152270542E002CCACB /* WorldListCtrl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FC85AF72265A985000583DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FC85AF82265A985000583DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FC85AFD2265A985000583DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FC85AFE2265A985000583DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FC85B002265A985000583DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DU5SP7K29;
+				INFOPLIST_FILE = WordsKiller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = f.WordsKiller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7FC85B012265A985000583DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DU5SP7K29;
+				INFOPLIST_FILE = WordsKiller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = f.WordsKiller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FC85AE12265A983000583DF /* Build configuration list for PBXProject "WordsKiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC85AFD2265A985000583DF /* Debug */,
+				7FC85AFE2265A985000583DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC85AFF2265A985000583DF /* Build configuration list for PBXNativeTarget "WordsKiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC85B002265A985000583DF /* Debug */,
+				7FC85B012265A985000583DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7FC85AF22265A983000583DF /* WordsKiller.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7FC85AF32265A983000583DF /* WordsKiller.xcdatamodel */,
+			);
+			currentVersion = 7FC85AF32265A983000583DF /* WordsKiller.xcdatamodel */;
+			path = WordsKiller.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7FC85ADE2265A983000583DF /* Project object */;
+}
